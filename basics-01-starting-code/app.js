@@ -3,6 +3,8 @@
 //we declare a goal
 const app = Vue.createApp({
     //returns an object full of data.
+    //This can also be written as data: function() { },
+    // or data: () => { }
     data() {
         return {
             courseGoalA: "Finish the course and learn Vue!",
