@@ -7,19 +7,11 @@ const app = Vue.createApp({
             color:"",
         }
     },
-    computed: {
-        getClass(){
-            return this.cssClass;
-        },
-        getColor(){
-            return this.color;
-        }
-    },
     methods: {
         toggleP(){
             this.isVisible = !this.isVisible;
         }
     }
-})
+});
 
 app.mount("#assignment");
