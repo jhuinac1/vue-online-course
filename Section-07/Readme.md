@@ -43,7 +43,7 @@ vue create <name-app>
 -pick a preset and confirm.
 
 
-### If installing plugins taking a long time : try then create app again
+### If installing plugins taking a long time : try command below and then create app again
 
 ```
 vue config --set useTaobaoRegistry false
