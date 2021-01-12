@@ -30,6 +30,21 @@ helps us create projects, that are more realistic useful applications.
 tools
 - Node, because Vue cli needs it under the hood.
 
+### to install globally
 ```
 npm install -g @vue/cli
+```
+
+### creating a new app
+
+```
+vue create <name-app>
+```
+-pick a preset and confirm.
+
+
+### If installing plugins taking log : try
+
+```
+vue config --set useTaobaoRegistry false
 ```
